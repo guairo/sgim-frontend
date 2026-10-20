@@ -1,0 +1,38 @@
+/**
+ * Hoja de estilos principal. Importa las capas base de Tailwind CSS
+ * y define algunos estilos globales de la aplicacion SGIM.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f5f7fb;
+  color: #1f3864;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7d2e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e74b5;
+}
