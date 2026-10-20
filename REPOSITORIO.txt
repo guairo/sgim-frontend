@@ -1,0 +1,47 @@
+===============================================================================
+  SGIM - Sistema de Gestion para Inventario Municipal
+  Evidencia AA4-EV03 - Codificacion del modulo del proyecto
+===============================================================================
+
+Aprendiz : Jonhatan Rivadeneira Pacheco
+Programa : Tecnologo en Analisis y Desarrollo de Software (ADSO)
+Centro   : SENA - Colombia
+Modulo   : Gestion de Bienes
+
+-------------------------------------------------------------------------------
+  REPOSITORIO DE VERSIONES
+-------------------------------------------------------------------------------
+
+Plataforma : GitHub
+Usuario    : guairo
+URL        : https://github.com/guairo/sgim-frontend
+
+(En caso de que el repositorio aun no se encuentre publicado, los pasos
+ para subirlo desde esta carpeta son:
+
+   git remote add origin https://github.com/guairo/sgim-frontend.git
+   git branch -M main
+   git push -u origin main
+
+ El historial de commits incluido en la carpeta .git/ documenta la
+ construccion incremental del modulo.)
+
+-------------------------------------------------------------------------------
+  HISTORIAL DE COMMITS
+-------------------------------------------------------------------------------
+
+Los commits realizados sobre este proyecto pueden revisarse con el comando:
+
+   git log --oneline --graph --decorate
+
+Cada commit corresponde a una iteracion funcional del modulo:
+  1. Configuracion inicial del proyecto (Vite + React + Tailwind).
+  2. Autenticacion y rutas protegidas.
+  3. Layout principal y navegacion.
+  4. Servicios y datos semilla del modulo de Bienes.
+  5. Listado de bienes con filtros.
+  6. Formulario de creacion y edicion.
+  7. Ficha de detalle y eliminacion con confirmacion.
+  8. Documentacion y README.
+
+===============================================================================
