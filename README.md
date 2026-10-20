@@ -111,11 +111,6 @@ previamente documentados en las evidencias de analisis y diseno:
 - **Accesibilidad basica:** labels asociados a controles, atributos ARIA en
   modales, foco visible.
 
-## 9. Repositorio de versiones
-
-El enlace al repositorio Git publico se encuentra en el archivo
-[`REPOSITORIO.txt`](./REPOSITORIO.txt).
-
-## 10. Autor
+## 9. Autor
 
 Jonhatan Rivadeneira Pacheco - Aprendiz SENA ADSO - Colombia.
